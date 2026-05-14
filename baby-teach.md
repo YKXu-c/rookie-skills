@@ -82,6 +82,7 @@ Record all detailed explanations and Q&A.
 # ⚠️ Core Principle
 
 > All answers must be fact-based and traceable to references or official documentation.
+> The output formula requires LaTeX rendering to make it easy for users to read.
 
 ---
 
