@@ -1,6 +1,8 @@
 # rookie-skills
 some skills for rookie of science/programming/... to learn projects and theory
-origin version:
+
+**origin version**:
+
 ---
 name: baby-teach
 description: Use when user need to learn a project(science theory, code, etc.).
