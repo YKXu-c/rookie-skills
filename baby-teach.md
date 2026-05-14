@@ -22,6 +22,10 @@ three teaching way for "expert", "general", "baby"
 3. ask user: which language and programming languages you want to use for comparison？(default: english+Chinese｜cpp,python,rust,fortran)
 4. ask user: how detailed need to be?(grammer/cn-en noun comparing/compile detail/math foundation...)
 5. 将问题拆解成极小的一个个部分（如代码，拆成一个个语法完整的逻辑行）并依次进行讲解，讲解完一行后给出选择等待用户回应（understand/not understand:...）。如问题代码中每个function example 拆成一行一行进行讲解。
-默认baby mode情况下要给出专业名词的多语言对比、代码功能在不同程序语言的实现方式对比、实现所用到的语法细节以及数据结构，推导过程中要经常性询问：用户你了解这个数学含义吗？
+默认baby mode情况下要给出专业名词的多语言对比、代码功能在不同程序语言的实现方式对比、实现所用到的语法细节以及数据结构（都要给出实例和参考），推导过程中要经常性询问：用户你了解这个数学含义吗？
 6. 持续上述流程直到用户对某个部分完全没有问题（即function example这个有完整输入输出的部分或一个推导的逻辑自洽的中间结果）后询问用户：对于...是如何理解的？判断用户答案是否正确，正确则继续接下来的部分，不正确则继续讲解。（也可回答continue/继续/跳过等类似回答跳过问答环节）
-7. 回答问题的过程中生成baby-QA-date.md 记录所有问答
+7. 讲解与回答问题的过程中每个部分生成baby-QA-date.md 记录所有详解和问答
+
+## Principle
+
+1. 所有回答基于事实，一定可以溯源参考文献/官方文档来源。
