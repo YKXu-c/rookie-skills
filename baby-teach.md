@@ -83,6 +83,7 @@ Record all detailed explanations and Q&A.
 
 > All answers must be fact-based and traceable to references or official documentation.
 > The output formula requires LaTeX rendering to make it easy for users to read.
+> The questions that can be answered with options should be presented in the form of options (e.g., understand/not understand).
 
 ---
 
